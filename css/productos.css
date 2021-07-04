@@ -1,0 +1,26 @@
+img{
+    border-radius: 3em;
+}
+#card{
+    gap: 100px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+section{
+    display: block;
+    margin: auto
+}
+#card1{
+    border: 1px solid rgb(33, 36, 43);
+    border-radius: 1em;
+    display: block;
+    margin: auto
+}
+.card-title{
+    text-align: center;
+}
+.btn{
+    text-align: center;
+    display: block;
+    margin: auto
+}

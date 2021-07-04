@@ -1,0 +1,36 @@
+h2{
+    font-size: 3em;
+}
+#img{
+    opacity: 0.6;
+    width: 100%;
+}
+#espacio{
+    background-color: black;
+    height: 70px;
+}
+#imgfund{
+    height: 40%;
+}
+#fund{
+    text-align: right;
+}
+
+#imgtext{
+    text-align: justify;
+    top: 30%;
+}
+#imgfund{
+    height: 50%;
+    float: center;
+}
+#alt{
+    height: 400px;
+}
+#hist{
+    height: 600px;
+}
+#imghist{
+    height: 40%;
+    float: center;
+}
