@@ -65,13 +65,13 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 798px) {
   body {
     padding-top: 70px;
   }
 
   .header {
-    height: 60px;
+    height: 85px;
   }
 
   .logo {

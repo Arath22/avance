@@ -1,15 +1,14 @@
 body{
     background-color: rgb(53, 53, 53);
 }
-#card{
-    text-align: justify;
-}
+
 #home{
     position: fixed;
-    height: 100%;
     opacity: 0.4;
 }
-
+#c{
+    height: 760px;
+}
 #img {
     position: fixed;
     left: 41%;
@@ -23,8 +22,4 @@ body{
     left: 36%;
     top: 60%;
     border-radius: 1em;
-}
-
-#nosotros{
-    background-color: white;
 }
