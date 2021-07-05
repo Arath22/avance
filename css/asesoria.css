@@ -37,6 +37,8 @@ main {
     color: white;
     box-shadow: 7px 13px 37px #000;
 	gap: 20px;
+	display: block;
+	margin: auto;
 }
 
 .form-register h4{
