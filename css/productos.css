@@ -1,20 +1,18 @@
-img{
-    border-radius: 3em;
-}
 #card{
-    gap: 100px;
+    gap: 30px;
     cursor: pointer;
     transition: .3s ease all;
 }
 section{
     display: block;
-    margin: auto
+    margin: auto;
 }
 #card1{
     border: 1px solid rgb(33, 36, 43);
     border-radius: 1em;
     display: block;
-    margin: auto
+    margin: auto;
+    height: 180px;
 }
 .card-title{
     text-align: center;
@@ -22,5 +20,14 @@ section{
 .btn{
     text-align: center;
     display: block;
-    margin: auto
+    margin: auto;
+}
+#texto{
+    text-align: center;
+}
+#prod{
+    height: 50%;
+    width: auto;
+    display: block;
+    margin: auto;
 }

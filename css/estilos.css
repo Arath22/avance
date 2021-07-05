@@ -12,15 +12,15 @@ body{
 
 #img {
     position: fixed;
-    left: 35%;
-    right: 35%;
-    top: 15%;
+    left: 41%;
+    top: 33%;
     text-align: center;
+    width: 250px;
 }
 
 #nav {
     position: fixed;
-    left: 34%;
+    left: 36%;
     top: 60%;
     border-radius: 1em;
 }

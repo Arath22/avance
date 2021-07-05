@@ -6,50 +6,120 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/asesoria.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <title>Asesoria</title>
   </head>
   <body>
-    <header>
-      <div class="ancho">
-        <div class="logo">
-          <p><a href="index.html">CHEGARY</a></p>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="productos.html" id="productos">PRODUCTOS</a></li>
-            <li><a href="servcios.html">SERVICIOS</a></li>
-            <li><a href="asesoria.html">ASESORIA</a></li>
-          </ul>
-        </nav>
+    <header class="header">
+      <nav class="nav">
+        <img id="ban" src="img/banner2.png" alt="">
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="index.html" class="nav-menu-link nav-link">INICIO</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="nosotros.html" class="nav-menu-link nav-link">NOSOTROS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="productos.html" class="nav-menu-link nav-link">PRODUCTOS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="asesoria.html" class="nav-menu-link nav-link">ASESORIA</a>
+          </li>
+        </ul>
+      </nav>
+    </header><br><br><br><br><br>
+    <div class="content">
+      <div class="row">
+        <div class="col-12">
+          <img id="img" src="img/inicio.jpg" alt="">
+        </div>           
       </div>
-    </header><br><br>
+    </div>
     <main>
-      <div class="container">
-        <div class="row">
-          <section class="form-register">
-            <form action="" method="POST">
-              <h4>Registro</h4>
-              <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre" required>
-              <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
-              <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
-              <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required>
-              <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
-              <button class="btn btn-light">Registrar</button>
-              <p><a href="#">Ya tengo cuenta</a></p>
-            </form>
-          </section>
-        </div>
-      </div><br><br><br>
       <h3 class="titulo">Preguntas Frecuentes</h3>
-      <div class="categorias" id="categorias">
-        <div class="categorias" data-categoria="metodo-pago">
-          <img src="img/plus.svg" alt="">
-
+      <div class="preguntas">
+        <div class="contenedor-preguntas activo" data-categoria="metodos-pago">
+          <div class="contenedor-pregunta">
+            <p class="pregunta">¿Calibracion y octavacion son lo mismo? <img src="./img/plus.svg" alt="" /></p>
+            <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit.</p>
+          </div>
+          <div class="contenedor-pregunta">
+            <p class="pregunta">¿Puedo usar las cuerdas de una guitarra acustica en una electrica? <img src="./img/plus.svg" alt="" /></p>
+            <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.</p>
+          </div>
+          <div class="contenedor-pregunta">
+            <p class="pregunta">¿Se puede instalar sistema electronico a cualquier guitarra? <img src="./img/plus.svg" alt="" /></p>
+            <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.</p>
+          </div>
+          <div class="contenedor-pregunta">
+            <p class="pregunta">¿Puedo usar las cuerdas de una guitarra acustica en una electrica? <img src="./img/plus.svg" alt="" /></p>
+            <p class="respuesta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.adipisicing elit. Voluptatum laborum porro voluptates, sequi aliquam mollitia! Nostrum eius iure sapiente, voluptates soluta adipisci, perferendis voluptatibus eligendi vel saepe harum. Consectetur, doloribus.</p>
+          </div>
         </div>
+        <h3 class="titulo">Envianos tu consulta</h3>
+        <div class="container">
+          <div class="row">
+              <section class="form-register col-lg-6 col-md-6 col-sm-12">
+                  <form action="" method="POST">
+                    <h4>Registro</h4>
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su nombre" required>
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese sus apellidos" required>
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su correo" required>
+                    <input class="controls" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña" required>
+                    <input type="checkbox">Estoy de acuerdo con los <a id="tyc" href="#">Terminos y Condiciones</a>
+                    <button class="btn btn-light">Registrar</button>
+                    <p><a href="#">Ya tengo cuenta</a></p>
+                  </form>
+              </section>
+              <section id="pregunta" class="form-pregunta col-lg-6 col-md-6 col-sm-12">
+                <form action="" method="POST">
+                  <h4>Ingrese su pregunta</h4>
+                  <label for="Pregunta"></label>
+                  <textarea class="controls" name="nombres" id="" cols="30" rows="3" placeholder="Escriba aquí"></textarea>
+                  <button class="btn btn-light">Enviar</button>
+                </form>
+            </section>
+            </div>
+          </div>
+        </div>
+    </main><br><br><br><br>
+    <footer>
+      <div class="container__footer">
+          <div class="box__footer">
+              <div class="log">
+                  <img src="img/banner2.png" alt="">
+              </div>
+              <div class="terms">
+                  <p>Instrumentos Músicales Chegary</p>
+              </div>
+          </div>
+          <div class="box__footer">
+              <h2>Enlaces</h2>
+              <a href="index.html">Inicio</a>
+              <a href="nosotros.html">Nosotros</a>
+              <a href="productos.html">Productos</a>
+              <a href="asesoria.html">Asesoria</a>
+          </div>
+          <div class="box__footer">
+              <h2>Contáctanos</h2>
+              <a href="https://www.facebook.com/instrumentosmusicales.Chegary/" target="_blank"> <i class="fab fa-facebook-square"></i> Facebook</a>
+              <a href="https://www.instagram.com/arath_manuel/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>
+              <a href="https://wa.me/+51934957501" target="_blank"><i class="fab fa-whatsapp-square"></i>WhatsApp</a>
+          </div>
       </div>
-    </main>
+      <div class="box__copyright">
+          <hr>
+          <p>Todos los derechos reservados © 2021 <b>Arath Chavez</b></p>
+      </div>
+  </footer>
+    <script src="js/preguntas.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="js/nav.js"></script>
   </body>
 </html>

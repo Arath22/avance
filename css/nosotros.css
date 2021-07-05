@@ -2,35 +2,54 @@ h2{
     font-size: 3em;
 }
 #img{
-    opacity: 0.6;
     width: 100%;
 }
 #espacio{
     background-color: black;
     height: 70px;
 }
+
 #imgfund{
-    height: 40%;
+    height: 25%;
+    display: block;
+    margin: auto;
 }
 #fund{
     text-align: right;
+    padding-right: 100px;
+}
+#textfund{
+    text-align: justify;
+    display: block;
+    padding: 70px;
 }
 
-#imgtext{
+#imgsomos{
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+#textsomos{
     text-align: justify;
-    top: 30%;
 }
-#imgfund{
-    height: 50%;
-    float: center;
-}
+
 #alt{
     height: 400px;
 }
-#hist{
+#alt2{
+    height: 500px;
+    max-height: 1000px;
+}
+#alt3{
+    height: 300px;
+    max-height: 1000px;
+}
+#texthist{
     height: 600px;
+    max-height: 1000px;
 }
 #imghist{
     height: 40%;
-    float: center;
+    display: block;
+    margin: auto;
 }

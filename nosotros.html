@@ -6,25 +6,33 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/nosotros.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
     <title>Nosotros</title>
   </head>
   <body>
-    <header>
-      <div class="ancho">
-        <div class="logo">
-          <p><a href="index.html">CHEGARY</a></p>
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">INICIO</a></li>
-            <li><a href="nosotros.html">NOSOTROS</a></li>
-            <li><a href="productos.html" id="productos">PRODUCTOS</a></li>
-            <li><a href="servcios.html">SERVICIOS</a></li>
-            <li><a href="asesoria.html">ASESORIA</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header><br><br><br><br>
+    <header class="header">
+      <nav class="nav">
+        <img id="ban" src="img/banner2.png" alt="">
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="index.html" class="nav-menu-link nav-link">INICIO</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="nosotros.html" class="nav-menu-link nav-link">NOSOTROS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="productos.html" class="nav-menu-link nav-link">PRODUCTOS</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="asesoria.html" class="nav-menu-link nav-link">ASESORIA</a>
+          </li>
+        </ul>
+      </nav>
+    </header><br><br><br><br><br>
     <main>
       <section>
         <div class="content">
@@ -36,9 +44,17 @@
         </div><br><br>
         <div class="container">
           <div class="row">
-            <h2 class="col-12">Quienes Somos?</h2>
-            <p class="col-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, provident dignissimos excepturi quam temporibus velit a totam debitis esse facere fugiat blanditiis natus, porro nihil odio incidunt illo aliquid ut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse enim vitae repellendus ipsam numquam velit nisi, sed consequatur repellat quasi aliquam consequuntur repudiandae pariatur nesciunt! Vitae a cumque itaque dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum eligendi distinctio adipisci quos id fugit placeat animi fuga vel est cupiditate, vitae doloribus laudantium suscipit odit totam ea aliquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis at nam modi reiciendis, earum error nostrum unde facilis autem odit sapiente odio ratione assumenda fuga minima obcaecati quos. Repellat, veritatis?</p>
-            <img id="imgfund" class="col-5" src="img/home2.jpg" alt="">
+            <div class="col-12">
+              <h2>Quienes Somos?</h2>
+            </div>
+            <div id="alt3" class="row">
+              <div class="col-md-7 col-sm-12">
+                <p id="textsomos">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum, provident dignissimos excepturi quam temporibus velit a totam debitis esse facere fugiat blanditiis natus, porro nihil odio incidunt illo aliquid ut! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse enim vitae repellendus ipsam numquam velit nisi, sed consequatur repellat quasi aliquam consequuntur repudiandae pariatur nesciunt! Vitae a cumque itaque dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum eligendi distinctio adipisci quos id fugit placeat animi fuga vel est cupiditate, vitae doloribus laudantium suscipit odit totam ea aliquam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis at nam modi reiciendis, earum error nostrum unde facilis autem odit sapiente odio ratione assumenda fuga minima obcaecati quos. Repellat, veritatis?</p>
+              </div>
+              <div class="col-md-5 col-sm-12">
+                <img id="imgsomos" src="img/home2.jpg" alt="">
+              </div>
+            </div>
           </div>
         </div><br><br>
         <div id="espacio" class="content">
@@ -54,11 +70,11 @@
               <h2 id="fund">Fundador</h2>
             </div>
             <div id="alt" class="row">
-              <div class="col-5">
-                <img id="imgfund" src="img/icono-hombre-persona-pensando_24877-40527.jpg" alt="">
+              <div class="col-md-5 col-sm-12">
+                <img id="imgfund" src="img/fundador.jpg" alt="">
               </div>
-              <div class="col-7">
-                <p id="imgtext">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo amet corrupti saepe, at laboriosam ratione dolores quia odio ad aliquam ex architecto voluptatem mollitia, maxime ut doloribus laborum? Nam, veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda vero quod sunt molestias reprehenderit, atque natus, iusto ad blanditiis earum optio facere repellat nam ratione, at iure non officia!</p>
+              <div class="col-md-7 col-sm-12">
+                <p id="textfund">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo amet corrupti saepe, at laboriosam ratione dolores quia odio ad aliquam ex architecto voluptatem mollitia, maxime ut doloribus laborum? Nam, veniam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum assumenda vero quod sunt molestias reprehenderit, atque natus, iusto ad blanditiis earum optio facere repellat nam ratione, at iure non officia!</p>
               </div>
             </div>
           </div>
@@ -75,18 +91,49 @@
             <div class="col-12">
               <h2>Historia</h2>
             </div>
-            <div id="hist" class="row">
-              <div id="hist" class="col-6">
+            <div id="alt2" class="row">
+              <div id="texthist" class="col-md-7 col-sm-12">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit deserunt voluptatum eos blanditiis impedit distinctio atque ut, hic vitae quo, rem voluptatem cum adipisci fuga incidunt ab placeat ipsa suscipit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta velit optio quibusdam quaerat recusandae, eligendi temporibus, expedita sunt dolores ducimus suscipit tenetur a ab voluptate at ea libero adipisci iste. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptate qui impedit, perferendis ducimus atque labore, quam, commodi obcaecati deleniti velit vero harum ex consectetur itaque debitis sint at hic architecto. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod rem fugiat quibusdam magnam! Aliquam vel dicta voluptatibus saepe itaque atque maiores. Error deleniti quasi incidunt ratione eum officia voluptates at. Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sit provident accusamus vero tenetur, consectetur quis, ea ipsum odio maiores doloribus rerum. Illum soluta quasi modi itaque et voluptates error? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit modi impedit error dolore ea odit earum assumenda. Pariatur optio cumque fugiat inventore modi nulla provident aliquid dicta, harum id ex?</p>
               </div>
-              <div id="hist" class="col-6">
-                <img id="imghist" src="img/home3.jpg" alt="">
+              <div class="col-md-5 col-sm-12">
+                <img id="imghist" src="img/historia.jpg" alt="">
               </div>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <div class="container__footer">
+          <div class="box__footer">
+              <div class="log">
+                  <img src="img/banner2.png" alt="">
+              </div>
+              <div class="terms">
+                  <p>Instrumentos Músicales Chegary</p>
+              </div>
+          </div>
+          <div class="box__footer">
+              <h2>Enlaces</h2>
+              <a href="index.html">Inicio</a>
+              <a href="nosotros.html">Nosotros</a>
+              <a href="productos.html">Productos</a>
+              <a href="asesoria.html">Asesoria</a>
+          </div>
+          <div class="box__footer">
+              <h2>Contáctanos</h2>
+              <a href="https://www.facebook.com/instrumentosmusicales.Chegary/" target="_blank"> <i class="fab fa-facebook-square"></i> Facebook</a>
+              <a href="https://www.instagram.com/arath_manuel/" target="_blank"><i class="fab fa-instagram-square"></i> Instagram</a>
+              <a href="https://wa.me/+51934957501" target="_blank"><i class="fab fa-whatsapp-square"></i>WhatsApp</a>
+          </div>
+      </div>
+      <div class="box__copyright">
+          <hr>
+          <p>Todos los derechos reservados © 2021 <b>Arath Chavez</b></p>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
+    <script defer src="js/nav.js"></script>
   </body>
 </html>
